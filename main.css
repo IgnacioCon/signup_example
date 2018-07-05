@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background: #298eea;
+    font-family: "Roboto", Helvetica, sans-serif;
+    padding: 60px 0 0;
+    font-size: 18px;    
+}
+
+main {
+    display: inline-block;
+    width: 100%;
+}
+
+
+.logo-img {
+    display: block;
+    width: auto;
+    height: 35px;
+    margin: 0 auto 30px;
+}
+
+section.signup {
+    display: block;
+    width: 400px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 40px;
+}
+
+legend {
+    color: #565656;
+    margin: 0 auto 45px;
+    font-size: 35px;
+    width: 100%;
+    text-align: center;
+    line-height: 40px;
+}
+
+#email, #password, .btn {
+    width: 320px;
+    padding: 15px;
+    border-radius: 3px;
+    border: 2px solid #e7e7e7;
+    margin: 10px auto 20px;
+    font-size: 18px;
+}
+
+.btn {
+    background-color: #15CD72;
+    color: #fff;
+    font-size: 24px;
+    height: auto;
+    border: none;
+    margin-bottom: 0;
+}
+
+.btn:hover {
+    background-color: #0CB863;
+    transition: background 0.1s
+}
+
+footer.footer {
+    display: block;
+    width: auto;
+    margin: 20px auto;
+    text-align: center;
+}
+
+p.white-text {
+    display: block;
+    color: #fff;
+}
+
+p.white-text a {
+    color: #fff;
+    text-decoration: none;
+}
+
+p.white-text a:hover {
+    color: #000;
+    transition: background 0.1s;
+}
